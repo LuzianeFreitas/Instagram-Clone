@@ -34,6 +34,10 @@ body {
 
 .instagram-phone img {
     height: 39rem;
+
+    /* Configurações para colocar efeito de sombra na imagem png */
+    -webkit-filter: drop-shadow(10px 10px 6px rgba(0,0,0,0.2)); 
+    filter: drop-shadow(10px  10px 6px  rgba(0,0,0,0.2));
 }
 
 .instagram-continue {
