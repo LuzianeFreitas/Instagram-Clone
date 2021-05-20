@@ -21,5 +21,5 @@
 
 <h2>Aprendizado</h2>
 
-<p>Utilização da propriedade ```-webkit-filter``` para criar efeito de sombra na imagem png do celular</p>
+<p>Utilização da propriedade -webkit-filter para criar efeito de sombra na imagem png do celular</p>
 
