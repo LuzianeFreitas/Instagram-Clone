@@ -23,6 +23,8 @@ body {
     justify-content: start; /*alinhamento horizontal*/
     width: 60%;
     height: 100vh;
+
+    flex-wrap: wrap;
 }
 
 .instagram-phone {
@@ -48,7 +50,6 @@ body {
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
-
 }
 
 .group {
@@ -136,6 +137,39 @@ body {
     background-image: url('./img/googleplay-button.png');
 }
 
+.footer-instagram {
+    color: #8e8e8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    flex-direction: column;
+}
+
+.footer-instagram a {
+    color: #8e8e8e;
+}
+
+.links-instagram {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 1.2rem 0;
+}
+
+.informations-instagram {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.informations-instagram span {
+    padding: 1.2rem;
+}
+
 /*Responsividade*/
 
 @media (max-width: 1024px) {
@@ -163,5 +197,28 @@ body {
 
     .group {
         border: 1px solid transparent;
+    }
+
+    .download {
+        flex-direction: column;
+    }
+
+    /*Voltar aqui depois e ver como ajustar as distâncias melhores*/
+    .app-download a {
+        padding: 1.3rem;
+    }
+
+    .footer-instagram {
+        width: 90%;
+    }
+
+    .links-instagram {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .informations-instagram {
+        display: flex;
+        flex-direction: column;
     }
 }

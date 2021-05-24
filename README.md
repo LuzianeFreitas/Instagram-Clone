@@ -12,10 +12,14 @@
 
 ![Screenshot](picture-app-v1.png)
 
+<h3> Versão 3 </h3>
+
+![Screenshot](picture-app-v2.png)
+
 <h2>Features</h2>
 
 - [x] Mudar ícone do celular
-- [ ] Colocar rodapé
+- [x] Colocar rodapé
 - [ ] Alterar entre thema dark e light
 - [ ] Colocar animação na imagem do celular
 
